@@ -1,0 +1,12 @@
+{
+	"id" : "instagram",
+	"version": "1.0",
+	"description": "Unofficial Instagram Module for UliCMS",
+	"categories": [
+		"instagram",
+		"social media",
+		"photo"
+	],
+	"compatible_from": "2019.2.8",
+	"min_php_version" : "7.1"
+}
