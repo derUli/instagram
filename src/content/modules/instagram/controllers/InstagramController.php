@@ -55,7 +55,7 @@ class InstagramController extends MainClass {
 
     public function getSettingsHeadline() {
         return '<i class="fab fa-instagram" '
-                . 'style="font-size: 30px"></i> | Instagram';
+                . 'style="font-size: 30px; color:#5851db"></i> | Instagram';
     }
 
     // get all not posted images
@@ -99,5 +99,4 @@ class InstagramController extends MainClass {
             Response::redirect(ModuleHelper::buildAdminURL(self::MODULE_NAME, "error={$error}"));
         }
     }
-
 }
