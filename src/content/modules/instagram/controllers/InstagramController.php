@@ -21,7 +21,7 @@ class InstagramController extends MainClass {
         $password = Settings::get("instagram/password");
 
         // If we have no login data abort
-        if (!is_present($username) or ! is_present($password)) {
+        if (!$username || !$password) {
             return;
         }
         $this->postUnpostedImages($username, $password);
